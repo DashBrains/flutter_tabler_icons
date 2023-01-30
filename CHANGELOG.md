@@ -1,3 +1,10 @@
+## [2.1.2] - 2022-1-30
+
+### Changed
+
+- Tabler icons updated to version 2.1.2
+- Python script updated to support latest release
+
 ## [1.1.2] - 2021-1-05
 
 ### Changed

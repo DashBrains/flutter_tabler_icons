@@ -4,6 +4,11 @@ import argparse
 import os
 import re
 import shutil
+import sys
+import requests
+from io import BytesIO
+from zipfile import ZipFile
+import yaml
 
 
 # def get_icon_locations(input: str):
@@ -87,34 +92,21 @@ class TablerIcons {
 
     return out
 
+def get_latest_release() -> str:
+    release = requests.get("https://api.github.com/repos/tabler/tabler-icons/releases/latest").json()
+    zip_url = release['assets'][0]['browser_download_url']
+    zipfile = requests.get(zip_url).content
+    zip = ZipFile(BytesIO(zipfile))
+    zip.extractall('./tabler_icons')
+    return release['tag_name']
+    
+
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
+    # We get the latest release from Github
+    release = get_latest_release()
 
-    parser.add_argument(
-        "-i",
-        "--input",
-        help="Tabler Fonts directory",
-        required=True,
-    )
-
-    parser.add_argument(
-        "-o",
-        "--output",
-        help="Output file for the Dart class",
-        required=True,
-    )
-
-    parser.add_argument(
-        "-to",
-        "--ttf-out",
-        help="Where to copy the TTF file",
-        required=True,
-    )
-
-    args = parser.parse_args()
-
-    css_file_path = os.path.join(args.input, "iconfont", "tabler-icons.css")
+    css_file_path = os.path.join('./tabler_icons', "webfont", "tabler-icons.css")
 
     name_code_point_dict = {}
 
@@ -135,9 +127,19 @@ if __name__ == "__main__":
 
     flutter_class = generate_flutter_class(name_code_point_dict)
 
-    with open(args.output, "w") as output_file:
+    with open('./lib/flutter_tabler_icons.dart', "w") as output_file:
         output_file.write(flutter_class)
 
-    ttf_file_path = os.path.join(args.input, "iconfont", "fonts", "tabler-icons.ttf")
+    ttf_file_path = os.path.join('./tabler_icons', "webfont", "fonts", "tabler-icons.ttf")
 
-    shutil.copy(ttf_file_path, args.ttf_out)
+    shutil.copy(ttf_file_path, './assets/fonts/tabler-icons.ttf')
+
+    # Clean up
+    shutil.rmtree('./tabler_icons')
+
+    pubspec_r = open("./pubspec.yaml")
+    pubspec_yaml = yaml.safe_load(pubspec_r)
+    pubspec_yaml['version'] = release[1:]
+    pubspec_w = open("pubspec.yaml", "w")
+    yaml.dump(pubspec_yaml, pubspec_w)
+
