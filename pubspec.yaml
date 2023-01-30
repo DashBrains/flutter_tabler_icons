@@ -12,7 +12,7 @@ flutter:
     - asset: assets/fonts/tabler-icons.ttf
       style: normal
       weight: 400
-homepage: https://github.com/DashBrains/flutter_tabler_icons
+homepage: https://github.com/DashBrains/tabler_icons_flutter
 name: tabler_icons_flutter
-repository: https://github.com/DashBrains/flutter_tabler_icons
+repository: https://github.com/DashBrains/tabler_icons_flutter
 version: 2.1.2
