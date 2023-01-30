@@ -127,7 +127,7 @@ if __name__ == "__main__":
 
     flutter_class = generate_flutter_class(name_code_point_dict)
 
-    with open('./lib/flutter_tabler_icons.dart', "w") as output_file:
+    with open('./lib/tabler_icons_flutter.dart', "w") as output_file:
         output_file.write(flutter_class)
 
     ttf_file_path = os.path.join('./tabler_icons', "webfont", "fonts", "tabler-icons.ttf")
