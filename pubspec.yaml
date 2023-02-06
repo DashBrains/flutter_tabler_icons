@@ -2,7 +2,7 @@ dependencies:
   flutter:
     sdk: flutter
 description: Tabler Icons for flutter using icons from https://github.com/tabler/tabler-icons
-  by Dashbrains. Original work by Csaba Kissi @csaba_kissi
+  by DashBrains. Original work by Csaba Kissi @csaba_kissi
 environment:
   sdk: '>=2.12.0 <3.0.0'
 flutter:
@@ -15,4 +15,4 @@ flutter:
 homepage: https://github.com/DashBrains/tabler_icons_flutter
 name: tabler_icons_flutter
 repository: https://github.com/DashBrains/tabler_icons_flutter
-version: 2.1.2
+version: 2.2.0

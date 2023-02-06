@@ -1,4 +1,4 @@
-library flutter_tabler_icons;
+library tabler_icons_flutter;
 
 import 'package:flutter/widgets.dart';
 
@@ -328,8 +328,8 @@ class TablerIcons {
     static const IconData ball_football_off = IconData(0xee05, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData ball_tennis = IconData(0xec2a, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData ball_volleyball = IconData(0xec2b, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
-    static const IconData ballon = IconData(0xef3a, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
-    static const IconData ballon_off = IconData(0xf0fd, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData balloon = IconData(0xef3a, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData balloon_off = IconData(0xf0fd, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData ballpen = IconData(0xf06e, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData ballpen_off = IconData(0xf0b1, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData ban = IconData(0xea2e, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
@@ -473,7 +473,7 @@ class TablerIcons {
     static const IconData brackets_contain_end = IconData(0xf1e3, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData brackets_contain_start = IconData(0xf1e4, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData brackets_off = IconData(0xf0c0, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
-    static const IconData braile = IconData(0xf545, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData braille = IconData(0xf545, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData brain = IconData(0xf59f, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData brand_4chan = IconData(0xf494, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData brand_abstract = IconData(0xf495, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
@@ -486,7 +486,7 @@ class TablerIcons {
     static const IconData brand_amazon = IconData(0xf230, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData brand_amd = IconData(0xf653, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData brand_amigo = IconData(0xf5f9, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
-    static const IconData brand_amongus = IconData(0xf205, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData brand_among_us = IconData(0xf205, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData brand_android = IconData(0xec16, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData brand_angular = IconData(0xef6b, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData brand_ao3 = IconData(0xf5e8, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
@@ -507,7 +507,7 @@ class TablerIcons {
     static const IconData brand_binance = IconData(0xf5a0, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData brand_bing = IconData(0xedc6, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData brand_bitbucket = IconData(0xedc7, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
-    static const IconData brand_blackbery = IconData(0xf568, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData brand_blackberry = IconData(0xf568, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData brand_blender = IconData(0xf326, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData brand_blogger = IconData(0xf35a, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData brand_booking = IconData(0xedc8, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
@@ -1836,8 +1836,10 @@ class TablerIcons {
     static const IconData infinity = IconData(0xeb69, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData infinity_off = IconData(0xf3fe, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData info_circle = IconData(0xeac5, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData info_circle_filled = IconData(0xf6d8, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData info_square = IconData(0xeac6, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData info_square_rounded = IconData(0xf635, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData info_square_rounded_filled = IconData(0xf6d9, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData inner_shadow_bottom = IconData(0xf520, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData inner_shadow_bottom_left = IconData(0xf51e, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData inner_shadow_bottom_right = IconData(0xf51f, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
@@ -1999,6 +2001,7 @@ class TablerIcons {
     static const IconData lock_open_off = IconData(0xf156, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData lock_square = IconData(0xef51, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData lock_square_rounded = IconData(0xf636, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData lock_square_rounded_filled = IconData(0xf6da, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData logic_and = IconData(0xf240, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData logic_buffer = IconData(0xf241, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData logic_nand = IconData(0xf242, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
@@ -2250,10 +2253,10 @@ class TablerIcons {
     static const IconData oval_vertical_filled = IconData(0xf688, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData overline = IconData(0xeebb, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData package = IconData(0xeaff, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData package_export = IconData(0xf07a, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData package_import = IconData(0xf07b, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData package_off = IconData(0xf16c, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData packages = IconData(0xf2c9, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
-    static const IconData packge_export = IconData(0xf07a, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
-    static const IconData packge_import = IconData(0xf07b, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData pacman = IconData(0xeebc, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData page_break = IconData(0xec81, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData paint = IconData(0xeb00, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
@@ -2778,18 +2781,31 @@ class TablerIcons {
     static const IconData square_rotated_off = IconData(0xeef2, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded = IconData(0xf59a, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded_arrow_down = IconData(0xf639, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData square_rounded_arrow_down_filled = IconData(0xf6db, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded_arrow_left = IconData(0xf63a, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData square_rounded_arrow_left_filled = IconData(0xf6dc, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded_arrow_right = IconData(0xf63b, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData square_rounded_arrow_right_filled = IconData(0xf6dd, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded_arrow_up = IconData(0xf63c, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData square_rounded_arrow_up_filled = IconData(0xf6de, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded_check = IconData(0xf63d, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData square_rounded_check_filled = IconData(0xf6df, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded_chevron_down = IconData(0xf62b, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData square_rounded_chevron_down_filled = IconData(0xf6e0, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded_chevron_left = IconData(0xf62c, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData square_rounded_chevron_left_filled = IconData(0xf6e1, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded_chevron_right = IconData(0xf62d, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData square_rounded_chevron_right_filled = IconData(0xf6e2, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded_chevron_up = IconData(0xf62e, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData square_rounded_chevron_up_filled = IconData(0xf6e3, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded_chevrons_down = IconData(0xf64f, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData square_rounded_chevrons_down_filled = IconData(0xf6e4, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded_chevrons_left = IconData(0xf650, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData square_rounded_chevrons_left_filled = IconData(0xf6e5, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded_chevrons_right = IconData(0xf651, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData square_rounded_chevrons_right_filled = IconData(0xf6e6, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded_chevrons_up = IconData(0xf652, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData square_rounded_chevrons_up_filled = IconData(0xf6e7, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded_filled = IconData(0xf6a5, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded_letter_a = IconData(0xf5ae, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded_letter_b = IconData(0xf5af, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
@@ -2829,7 +2845,9 @@ class TablerIcons {
     static const IconData square_rounded_number_8 = IconData(0xf5d0, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded_number_9 = IconData(0xf5d1, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded_plus = IconData(0xf63f, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData square_rounded_plus_filled = IconData(0xf6e8, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_rounded_x = IconData(0xf640, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
+    static const IconData square_rounded_x_filled = IconData(0xf6e9, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_toggle = IconData(0xeef4, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_toggle_horizontal = IconData(0xeef3, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
     static const IconData square_x = IconData(0xeb2b, fontFamily: "tabler-icons", fontPackage: "flutter_tabler_icons");
@@ -3552,8 +3570,8 @@ class TablerIcons {
     "ball_football_off": ball_football_off,
     "ball_tennis": ball_tennis,
     "ball_volleyball": ball_volleyball,
-    "ballon": ballon,
-    "ballon_off": ballon_off,
+    "balloon": balloon,
+    "balloon_off": balloon_off,
     "ballpen": ballpen,
     "ballpen_off": ballpen_off,
     "ban": ban,
@@ -3697,7 +3715,7 @@ class TablerIcons {
     "brackets_contain_end": brackets_contain_end,
     "brackets_contain_start": brackets_contain_start,
     "brackets_off": brackets_off,
-    "braile": braile,
+    "braille": braille,
     "brain": brain,
     "brand_4chan": brand_4chan,
     "brand_abstract": brand_abstract,
@@ -3710,7 +3728,7 @@ class TablerIcons {
     "brand_amazon": brand_amazon,
     "brand_amd": brand_amd,
     "brand_amigo": brand_amigo,
-    "brand_amongus": brand_amongus,
+    "brand_among_us": brand_among_us,
     "brand_android": brand_android,
     "brand_angular": brand_angular,
     "brand_ao3": brand_ao3,
@@ -3731,7 +3749,7 @@ class TablerIcons {
     "brand_binance": brand_binance,
     "brand_bing": brand_bing,
     "brand_bitbucket": brand_bitbucket,
-    "brand_blackbery": brand_blackbery,
+    "brand_blackberry": brand_blackberry,
     "brand_blender": brand_blender,
     "brand_blogger": brand_blogger,
     "brand_booking": brand_booking,
@@ -5060,8 +5078,10 @@ class TablerIcons {
     "infinity": infinity,
     "infinity_off": infinity_off,
     "info_circle": info_circle,
+    "info_circle_filled": info_circle_filled,
     "info_square": info_square,
     "info_square_rounded": info_square_rounded,
+    "info_square_rounded_filled": info_square_rounded_filled,
     "inner_shadow_bottom": inner_shadow_bottom,
     "inner_shadow_bottom_left": inner_shadow_bottom_left,
     "inner_shadow_bottom_right": inner_shadow_bottom_right,
@@ -5223,6 +5243,7 @@ class TablerIcons {
     "lock_open_off": lock_open_off,
     "lock_square": lock_square,
     "lock_square_rounded": lock_square_rounded,
+    "lock_square_rounded_filled": lock_square_rounded_filled,
     "logic_and": logic_and,
     "logic_buffer": logic_buffer,
     "logic_nand": logic_nand,
@@ -5474,10 +5495,10 @@ class TablerIcons {
     "oval_vertical_filled": oval_vertical_filled,
     "overline": overline,
     "package": package,
+    "package_export": package_export,
+    "package_import": package_import,
     "package_off": package_off,
     "packages": packages,
-    "packge_export": packge_export,
-    "packge_import": packge_import,
     "pacman": pacman,
     "page_break": page_break,
     "paint": paint,
@@ -6002,18 +6023,31 @@ class TablerIcons {
     "square_rotated_off": square_rotated_off,
     "square_rounded": square_rounded,
     "square_rounded_arrow_down": square_rounded_arrow_down,
+    "square_rounded_arrow_down_filled": square_rounded_arrow_down_filled,
     "square_rounded_arrow_left": square_rounded_arrow_left,
+    "square_rounded_arrow_left_filled": square_rounded_arrow_left_filled,
     "square_rounded_arrow_right": square_rounded_arrow_right,
+    "square_rounded_arrow_right_filled": square_rounded_arrow_right_filled,
     "square_rounded_arrow_up": square_rounded_arrow_up,
+    "square_rounded_arrow_up_filled": square_rounded_arrow_up_filled,
     "square_rounded_check": square_rounded_check,
+    "square_rounded_check_filled": square_rounded_check_filled,
     "square_rounded_chevron_down": square_rounded_chevron_down,
+    "square_rounded_chevron_down_filled": square_rounded_chevron_down_filled,
     "square_rounded_chevron_left": square_rounded_chevron_left,
+    "square_rounded_chevron_left_filled": square_rounded_chevron_left_filled,
     "square_rounded_chevron_right": square_rounded_chevron_right,
+    "square_rounded_chevron_right_filled": square_rounded_chevron_right_filled,
     "square_rounded_chevron_up": square_rounded_chevron_up,
+    "square_rounded_chevron_up_filled": square_rounded_chevron_up_filled,
     "square_rounded_chevrons_down": square_rounded_chevrons_down,
+    "square_rounded_chevrons_down_filled": square_rounded_chevrons_down_filled,
     "square_rounded_chevrons_left": square_rounded_chevrons_left,
+    "square_rounded_chevrons_left_filled": square_rounded_chevrons_left_filled,
     "square_rounded_chevrons_right": square_rounded_chevrons_right,
+    "square_rounded_chevrons_right_filled": square_rounded_chevrons_right_filled,
     "square_rounded_chevrons_up": square_rounded_chevrons_up,
+    "square_rounded_chevrons_up_filled": square_rounded_chevrons_up_filled,
     "square_rounded_filled": square_rounded_filled,
     "square_rounded_letter_a": square_rounded_letter_a,
     "square_rounded_letter_b": square_rounded_letter_b,
@@ -6053,7 +6087,9 @@ class TablerIcons {
     "square_rounded_number_8": square_rounded_number_8,
     "square_rounded_number_9": square_rounded_number_9,
     "square_rounded_plus": square_rounded_plus,
+    "square_rounded_plus_filled": square_rounded_plus_filled,
     "square_rounded_x": square_rounded_x,
+    "square_rounded_x_filled": square_rounded_x_filled,
     "square_toggle": square_toggle,
     "square_toggle_horizontal": square_toggle_horizontal,
     "square_x": square_x,

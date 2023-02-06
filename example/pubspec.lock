@@ -54,13 +54,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_tabler_icons:
-    dependency: "direct main"
-    description:
-      path: ".."
-      relative: true
-    source: path
-    version: "2.1.2"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -143,6 +136,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.0"
+  tabler_icons_flutter:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "2.2.0"
   term_glyph:
     dependency: transitive
     description:
@@ -168,4 +168,4 @@ packages:
     source: hosted
     version: "2.1.4"
 sdks:
-  dart: ">=2.18.1 <4.0.0"
+  dart: ">=2.18.1 <3.0.0"

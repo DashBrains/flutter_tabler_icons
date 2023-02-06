@@ -35,7 +35,7 @@ import yaml
 # Largely taken from
 # https://github.com/ScerIO/icon_font_generator/blob/master/lib/generate_flutter_class.dart
 def generate_flutter_class(name_code_point_dict: dict[str, str]) -> str:
-    out = """library flutter_tabler_icons;
+    out = """library tabler_icons_flutter;
 
 import 'package:flutter/widgets.dart';
 
